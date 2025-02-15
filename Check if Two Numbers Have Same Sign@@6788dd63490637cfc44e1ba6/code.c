@@ -1,12 +1,25 @@
-#include <stdio.h>
-int main() {
+// #include <stdio.h>
+// int main() {
+//     int a,b;
+//     scanf("%d %d",&a,&b);
+//     if ((a>0 && b>0) || (a<0 && b<0)){
+//         printf("Same Sign");
+//     }
+//     else{
+//         printf("Different Sign");
+//     }
+//     return 0;
+// }
+
+#include<stdio.h>
+int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if ((a>0 && b>0) || (a<0 && b<0)){
+    if((a>0 && b>0) || (a<0 && b<0)){
         printf("Same Sign");
     }
     else{
-        printf("Different Sign");
+        printf("different Sign");
     }
     return 0;
 }
