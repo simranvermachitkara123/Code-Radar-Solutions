@@ -39,10 +39,12 @@ int main(){
         printf("Average");
         break;
         case 'D':
-        printf("Fail");
+        printf("Below Average");
         break;
+        case 'F':
+        printf("Fail")
         default:
-        printf("invalid grade");
+        printf("Invalid grade");
 
     }
     return 0;
