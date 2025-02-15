@@ -1,10 +1,40 @@
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
+// int main() {
+//     int a,b;
+//     char sign;
+//     scanf("%d %d %c",&a,&b,&sign);
+//     switch(sign){
+//         case '+':
+//         printf("%d",a+b);
+//         break;
+//         case '-':
+//         printf("%d",a-b);
+//         break;
+//         case '*':
+//         printf("%d",a*b);
+//         break;
+//         case '/':
+//         if(b==0){
+//             printf("error");
+//         }
+//         else{
+//         printf("%d",a/b);
+//         }
+//         break;
+//         default:
+//         printf("error");
+//     }
+//     return 0;
+// }
+
+
+#include<stdio.h>
+int main(){
     int a,b;
-    char sign;
-    scanf("%d %d %c",&a,&b,&sign);
-    switch(sign){
+    char op;
+    scanf("%d %d %c",&a,&b,&op);
+    switch(op){
         case '+':
         printf("%d",a+b);
         break;
@@ -19,11 +49,10 @@ int main() {
             printf("error");
         }
         else{
-        printf("%d",a/b);
+            printf("%d",a/b);
         }
         break;
-        default:
+        default :
         printf("error");
     }
-    return 0;
 }
