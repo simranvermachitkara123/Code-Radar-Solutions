@@ -1,7 +1,15 @@
-#include <stdio.h>
-int main() {
+// #include <stdio.h>
+// int main() {
+//     char str[100];
+//     scanf("%s",&str);
+//     printf("You entered: %s", str);
+//     return 0;
+// }
+
+
+#include<stdio.h>
+int main(){
     char str[100];
     scanf("%s",&str);
-    printf("You entered: %s", str);
-    return 0;
+    printf("You entered: %s",str);
 }
