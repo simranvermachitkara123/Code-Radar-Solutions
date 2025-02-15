@@ -1,9 +1,17 @@
-#include <stdio.h>
-int main() {
+// #include <stdio.h>
+// int main() {
+//     int a,b;
+//     scanf("%d %d",&a,&b);
+//     int c= a|b;
+//     printf("%d",c);
+    
+//     return 0;
+// } 
+#include<stdio.h>
+int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    int c= a|b;
-    printf("%d",c);
-    
+    printf("%d",a|b);
     return 0;
+    
 }
