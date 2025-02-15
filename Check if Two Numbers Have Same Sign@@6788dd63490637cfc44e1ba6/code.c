@@ -19,7 +19,7 @@ int main(){
         printf("Same Sign");
     }
     else{
-        printf("different Sign");
+        printf("Different Sign");
     }
     return 0;
 }
