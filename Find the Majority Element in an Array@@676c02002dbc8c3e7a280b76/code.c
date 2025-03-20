@@ -14,9 +14,11 @@ int main()
             count++;
         }
         if(count > n/2){
-            printf("%d\n",arr[i]);
+            printf("%d ",arr[i]);
+        }
+        else{
+            printf("-1");
         }
     }
-    printf("-1");
     
 }
