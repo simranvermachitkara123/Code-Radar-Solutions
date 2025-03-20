@@ -16,7 +16,8 @@ int main()
             }
         }
         if(count > n/2){
-            printf("%d ",arr[i]);
+            printf("%d",arr[i]);
+            break;//this is must if we want our answer not to repeat
         }
         
     }
