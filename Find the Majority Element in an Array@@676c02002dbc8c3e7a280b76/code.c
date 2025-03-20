@@ -21,11 +21,12 @@ int main()
             found=1;
             break;//this is must if we want our answer not to repeat
         }
-        if(found==0){
-            printf("-1");
-        }
+        
         
     }
+    if(found==0){
+            printf("-1");
+        }
     
     
 }
