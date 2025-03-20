@@ -18,9 +18,8 @@ int main()
         if(count > n/2){
             printf("%d ",arr[i]);
         }
-        else{
-            printf("-1");
-        }
+        
     }
+    printf("-1");
     
 }
