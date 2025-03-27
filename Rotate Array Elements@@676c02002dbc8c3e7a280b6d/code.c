@@ -47,8 +47,9 @@ void rotate(int arr[],int n,int k){
         for(int j=n-1;j>0;j--){
             arr[j]=arr[j+1];
         }
-        int arr[0]= last;
+        
     }
+    int arr[0]= last;
 }
 int main(){
     int n;
