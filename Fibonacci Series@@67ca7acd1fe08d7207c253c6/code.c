@@ -1,4 +1,4 @@
-void fabonacciSeries(int n){
+void fibonacciSeries(int n){
     int a=0,b=1,next;
     for(int i=0;i<n;i++){
         printf("%d",a);
