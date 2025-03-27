@@ -15,7 +15,8 @@ int kthSmallest(int arr[],int n,int k){
     if(k<1 || k>n){
         return -1;
     }
-    selectionSort(arr,n){
-        return arr[k-1];
-    }
+    selectionSort(arr,n); // Correct function call
+    return arr[k - 1];  // Return the k-th smallest element
+        
+    
 }
