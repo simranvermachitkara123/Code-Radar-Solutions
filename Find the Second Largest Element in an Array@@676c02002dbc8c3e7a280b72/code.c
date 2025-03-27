@@ -10,6 +10,7 @@ int main(){
     int sec = -1;
     for(i=0;i<n;i++){
         if(arr[i]>largest){
+            sec = largest;
             largest=arr[i];
         }
     }
