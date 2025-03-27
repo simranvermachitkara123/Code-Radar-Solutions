@@ -1,19 +1,18 @@
-void isPrime(int n){
+int isPrime(int n){
     if(n<2){
-        continue;
+        return 0;
     }
-    for(int i=0;i<n;i++){
-        int count=0;
-        for(int j=0;j<n;j++){
-            if(j%i==0){
+    int count=0;
+    for(int i=1;i<n;i++){
+        if(n%i==0){
             count++;
-            }
+        }
         }
     }
     if(count == 2){
-        printf("1");
+        return 1;
     }
     else{
-        printf("0");
+        return 0;
     }
 }
