@@ -53,7 +53,7 @@ int isPrime(int n){
 }
 void printPrimesInRange(int a,int b){
     int count=0;
-    for(int i=a; i<=n ; i++){
+    for(int i=a; i<=b ; i++){
         (if(isprime(i))){
             printf("%d " ,i);
             count++;
