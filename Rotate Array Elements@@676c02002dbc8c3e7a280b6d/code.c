@@ -69,7 +69,7 @@ int main() {
     rotateRight(arr, n, k);  // Rotate array
 
     for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);  // Print rotated array
+        printf("%d\n", arr[i]);  // Print rotated array
     }
 
     return 0;
