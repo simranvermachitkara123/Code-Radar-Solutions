@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,i,count;
+    int n,i,count,primecount;
     scanf("%d",&n);
     int arr[n];
     for(i=0;i<n;i++){
@@ -15,9 +15,13 @@ int main(){
             if(arr[i]%j == 0){
                 count++;
             }
+            if(count==2){
+                primecount++;
+            }
             
         }
-        printf("%d",count);
+        printf("%d",primecount);
+        
 
         }
       
