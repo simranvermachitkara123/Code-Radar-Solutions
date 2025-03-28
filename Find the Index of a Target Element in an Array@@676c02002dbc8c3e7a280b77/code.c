@@ -11,7 +11,7 @@ int main(){
         if(arr[i]==key){
             printf("%d",i);
             found=1;
-            break
+            break;
         }
     }
     if(!found){
