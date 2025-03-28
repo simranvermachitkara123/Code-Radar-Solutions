@@ -22,7 +22,7 @@ int main(){
             maxfreq=count;
             maxelement=arr[i];
         }
-        elseif(maxfreq=count && arr[i]<maxelement){
+        else if(maxfreq=count && arr[i]<maxelement){
             maxelement=arr[i];
         }
     }
