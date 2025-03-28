@@ -15,7 +15,7 @@ int main(){
         }
     
     
-        else if(arr[i]>sec && (sec==-1 || arr[i]<largest)){
+        else if(arr[i]>sec && ( arr[i]<largest)){
             sec=arr[i];
         }
     }
