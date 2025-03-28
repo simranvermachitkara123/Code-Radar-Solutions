@@ -7,11 +7,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(i=0;i<n;i++){
-        if(arr[i]>2){
+        if(arr[i]<2){
             continue;
         }
         count=0;
-        for(int j=1;j<arr[i];j++){
+        for(int j=1;j<=arr[i];j++){
             if(arr[i]%j == 0){
                 count++;
             }
