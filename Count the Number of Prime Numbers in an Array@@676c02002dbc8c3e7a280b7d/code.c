@@ -19,5 +19,8 @@ int main(){
         if(count==2){
             printf("%d\n",arr[i]);
         }
+        else{
+            printf("0");
+        }
     }
 }
