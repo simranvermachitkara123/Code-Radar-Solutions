@@ -15,9 +15,9 @@ int main(){
             if(arr[i]%j == 0){
                 count++;
             }
+            printf("%d",count);
         }
-        if(count==2){
-            printf("%d\n",count);
+
         }
       
     }
