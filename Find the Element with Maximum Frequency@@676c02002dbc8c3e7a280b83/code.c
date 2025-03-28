@@ -12,7 +12,7 @@ int main(){
             continue;
         }
         count=1;
-        for(j=i+i;j<n;j++){
+        for(j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
                 visited[j]=1;
@@ -22,7 +22,7 @@ int main(){
             maxfreq=count;
             maxelement=arr[i];
         }
-        else if(maxfreq=count && arr[i]<maxelement){
+        else if(maxfreq==count && arr[i]<maxelement){
             maxelement=arr[i];
         }
     }
