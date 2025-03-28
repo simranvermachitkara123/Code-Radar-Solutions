@@ -17,7 +17,7 @@ int main(){
             }
         }
         if(count==2){
-            printf("%d\n");
+            printf("%d\n",arr[i]);
         }
     }
 }
