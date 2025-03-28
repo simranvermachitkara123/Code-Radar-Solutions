@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int i,j,count,maxfreq=0,maxelement=0;
+    int n,i,j,count,maxfreq=0,maxelement=0;
     scanf("%d",&n);
     int arr[n];visited[n];
     for(i=0;i<n;i++){
