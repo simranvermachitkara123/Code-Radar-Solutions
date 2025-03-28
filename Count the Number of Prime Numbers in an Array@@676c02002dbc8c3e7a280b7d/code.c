@@ -20,9 +20,7 @@ int main(){
             }
             
         }
-        printf("%d",primecount);
-        
-
         }
+        printf("%d",primecount);
       
     }
