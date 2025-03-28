@@ -17,10 +17,8 @@ int main(){
             }
         }
         if(count==2){
-            printf("%d\n",arr[i]);
+            printf("%d\n",count);
         }
-        else{
-            printf("0");
-        }
+      
     }
 }
