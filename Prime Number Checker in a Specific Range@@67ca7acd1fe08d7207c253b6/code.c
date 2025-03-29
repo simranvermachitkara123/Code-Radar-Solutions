@@ -34,17 +34,49 @@
 
 
 
+// int isPrime(int n){
+//     if(n<2){
+//         return 0;
+//     }
+//     int count = 0;
+//     for(int i=1;i<=n;i++){
+//         if(n%i == 0){
+//             count++;
+//         }
+//     }
+//     if(count == 2 ){
+//         return 1;
+//     }
+//     else{
+//         return 0;
+//     }
+// }
+// void printPrimesInRange(int a,int b){
+//     int count=0;
+//     for(int i=a; i<=b ; i++){
+//         if(isPrime(i)){
+//             printf("%d " ,i);
+//             count++;
+
+//         }
+//     }
+//     if(count==0){
+//         printf("No prime numbers");
+//     }
+// }
+
+
 int isPrime(int n){
-    if(n<2){
+    if(n>2){
         return 0;
     }
-    int count = 0;
+    int count=0;
     for(int i=1;i<=n;i++){
-        if(n%i == 0){
+        if(n%i==0){
             count++;
         }
     }
-    if(count == 2 ){
+    if(count==2){
         return 1;
     }
     else{
@@ -53,16 +85,14 @@ int isPrime(int n){
 }
 void printPrimesInRange(int a,int b){
     int count=0;
-    for(int i=a; i<=b ; i++){
-        if(isPrime(i)){
-            printf("%d " ,i);
+    for(int i=a;i<=b;i++){
+        if(isPrime(n)){
+            printf("%d ",n);
             count++;
-
         }
+
     }
     if(count==0){
         printf("No prime numbers");
     }
 }
-
-
