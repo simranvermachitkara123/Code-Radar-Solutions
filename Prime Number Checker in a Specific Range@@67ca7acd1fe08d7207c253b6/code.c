@@ -86,8 +86,8 @@ int isPrime(int n){
 void printPrimesInRange(int a,int b){
     int count=0;
     for(int i=a;i<=b;i++){
-        if(isPrime(n)){
-            printf("%d ",n);
+        if(isPrime(i)){
+            printf("%d ",i);
             count++;
         }
 
