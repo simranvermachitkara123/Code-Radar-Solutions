@@ -67,7 +67,7 @@
 
 
 int isPrime(int n){
-    if(n>2){
+    if(n<2){
         return 0;
     }
     int count=0;
