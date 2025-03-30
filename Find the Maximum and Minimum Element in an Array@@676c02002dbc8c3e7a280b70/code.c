@@ -39,5 +39,5 @@ int main(){
             max=arr[i];
         }
     }
-    printf("%d %d",max,min);
+    printf("%d %d",min,max);
 }
