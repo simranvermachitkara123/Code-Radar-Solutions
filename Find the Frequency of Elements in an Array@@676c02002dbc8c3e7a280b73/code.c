@@ -44,6 +44,7 @@ int main(){
     for(i=0;i<n;i++){
         if(visited[i]==1){
             continue;
+            }
             count=1;
             for(j=i+1;j<n;j++){
                 if(arr[i]==arr[j]){
@@ -53,7 +54,7 @@ int main(){
             }
             
             
-        }
+        
         printf("%d %d\n",arr[i],count);
          
        
