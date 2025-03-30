@@ -39,6 +39,7 @@ int main(){
         if(arr[i]<2){
             continue;
         }
+        count=0;
         for(j=1;j<=arr[i];j++){
             if(arr[i]%j==0){
                 count++;
