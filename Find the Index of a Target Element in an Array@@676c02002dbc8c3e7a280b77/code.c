@@ -29,7 +29,7 @@ int main(){
     }
     int key;
     scanf("%d",&key);
-    int found;
+    int found=0;
     for(int i=0;i<n;i++){
         if(arr[i]==key){
             printf("%d",i);
