@@ -51,7 +51,8 @@ int main(){
                     visited[j]=1;
                 }
             }
+             printf("%d %d\n",arr[i],count);
         }
-        printf("%d %d\n",arr[i],count);
+       
     }
 }
