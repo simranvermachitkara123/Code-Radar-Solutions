@@ -7,7 +7,7 @@ int main(){
     scanf("%s",str);
     len= strlen(str);
     for(int i=0;i<len/2;i++){
-        is(str[i]!=str[len -1-i]){
+        if(str[i]!=str[len -1-i]){
             ispallin =0;
             break;
         }
