@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     char str[200];
-    int count=1;
+    int count=0;
     fgets(str,sizeof(str),stdin);
     for(int i=0;str[i]!='\0';i++){
          // Count a word when the current char is not a space,
